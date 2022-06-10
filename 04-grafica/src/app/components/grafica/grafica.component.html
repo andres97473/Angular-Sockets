@@ -1,0 +1,18 @@
+<h1>Grafica dinamica</h1>
+<hr />
+
+<div class="row">
+  <div class="col-md-6">
+    <div style="display: block">
+      <canvas
+        baseChart
+        width="400"
+        height="400"
+        [options]="lineChartOptions"
+        [datasets]="lineChartData"
+        [labels]="lineChartLabels"
+        [type]="'line'"
+      ></canvas>
+    </div>
+  </div>
+</div>
